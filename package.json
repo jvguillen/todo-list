@@ -1,0 +1,29 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "sample project",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "parallelshell": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp-nodemon": "^2.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js",
+    "start": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvguillen/todo-list.git"
+  },
+  "author": "Jose Guillen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvguillen/todo-list/issues"
+  },
+  "homepage": "https://github.com/jvguillen/todo-list#readme"
+}
